@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+ul{
+  list-style-type: none;
+}
+
+.main{
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 500px;
+  margin-top: 0%;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+.luffy{
+  color: aliceblue;
+ font-size: larger;
+ font-weight: bold;
+ padding: 0;
+ margin-left: 300px;
+}
+
+.robin{
+  color: aqua;
+  font-weight: 900;
+  font-style: italic;
+}
+ .left.right{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+ul{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ gap: 50px;
+}
+
+.feats{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.feats-right, .feats-left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.feats-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 400px;
+  margin-top: -75px;
+ 
+}
+
+.feats-right{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.qoutes{
+  color: white;
+  font: bolder;
+  display: flex;
+  justify-content: center;
+  margin-left: 2px;
+  gap: 15px;
+  
+}
+
+.feats-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -200px;
+  margin-left: 300px;
+
+}
+
+.luffyisthegoat{
+  color: white;
+  background-color: blue;
+  width: 50%;
+  height: 25px;
+  border-radius: 10px;
+  margin-right: 100px;
+}
+h2{
+  margin-right: 40px;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 75px;
+  color: yellow;
+  font-weight: bolder;
+  font-size: 30px;
+  
+}
+
+.box{
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid blue;
+  color: blue;
+  background-color: white;
+  
+
+  }
+ 
+
+.bluebox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.crazy{
+  background-color: grey;
+  height: 500px;
+}
+
+.thirdsection{
+  height: 200px;
+ padding: 20px;
+ background-color: yellow;
+}
+h3{
+  color: blue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.luffy2nd{
+  color: red;
+ text-align: center;
+margin-left: 400px;
+}
+
+.lastbutton{
+  color: yellow;
+  background-color:green;
+  border-radius: 10px ;
+}
+.lastsection{
+  height: 50px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+  background-color: blue;
+}
+
+.rightlast,.leftlast{
+  width: 50%;
+}
+
+.rightlast{
+  margin-left: 150px;
+}
